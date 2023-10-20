@@ -16,7 +16,8 @@
                 </div>
                 <div class="card-content">
                 <span class="card-title">{{ $produto->nome }}</span>    
-                <p>{{ $produto->descricao }}.</p>
+                <p>{{ $produto->descricao }}.</p> <br>
+                <p>Valor: R$ {{ $produto->preco}}</p>
                 </div>
             </div>
         </div>
